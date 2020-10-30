@@ -32,6 +32,6 @@ class CityListTest {
     @Test
     void testSet(){
         City city = new City("Calgary", "Alberta");
-        city.setProvice("Manitoba");
+        city.setProvince("Manitoba");
     }
 }
