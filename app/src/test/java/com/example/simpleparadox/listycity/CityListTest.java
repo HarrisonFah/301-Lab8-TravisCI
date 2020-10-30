@@ -28,4 +28,10 @@ class CityListTest {
         assertEquals(2, cityList.countCities());
         assertTrue(cityList.hasCity(new City("Regina", "Saskatchewan")));
     }
+
+    @Test
+    void testSet(){
+        City city = new City("Calgary", "Alberta");
+        city.setProvince("Manitoba");
+    }
 }
